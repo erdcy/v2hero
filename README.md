@@ -2,7 +2,8 @@
 本项目是一个利用Travis-CI部署Docker到Heroku 的学习示例。
 
 如果为您的学习提供了帮助，欢迎给一个Star ^_^
-
+* 快捷部署
+   [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/erdcy/v2hero/tree/core-latest)
 * 部署方法
    https://github.com/onplus/v2hero/wiki/Deploy-V2ray-To-Heroku
 
