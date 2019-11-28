@@ -20,5 +20,38 @@
    - https://github.com/wangyi2005/v2ray
    - Heroku https://devcenter.heroku.com/articles/container-registry-and-runtime
    - Travis-CI https://docs.travis-ci.com/user/docker
-
+* 配置
+"outbound": {
+    "tag": "agentout",
+    "protocol": "vmess",
+    "settings": {
+      "vnext": [
+        {
+          "address": "v2hero.herokuapp.com",
+          "port": 80,
+          "users": [
+            {
+              "id": "91cb66ba-a373-43a0-8169-33d4eeaeb857",
+              "alterId": 64,
+              "security": "aes-128-gcm"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "",
+      "tcpSettings": null,
+      "kcpSettings": null,
+      "wsSettings": {
+        "connectionReuse": true,
+        "path": "",
+        "headers": null
+      }
+    },
+    "mux": {
+      "enabled": true
+    }
+  },
 
